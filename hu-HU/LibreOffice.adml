@@ -1,0 +1,263 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="SupportedWinVersion">Windows Vista és újabb windowsokhoz</string>
+      <string id="CAT_LibreOfficeRoot">LibreOffice 4.3+</string>
+      <string id="CAT_LibreOffice">LibreOffice</string>
+      <string id="CAT_LibreOfficeUserData">Felhasználói adatok</string>
+      <string id="CAT_LibreOfficeGeneral">Általános</string>
+      <string id="CAT_LibreOfficeMemory">Memória</string>
+      <string id="CAT_LibreOfficeView">Nézet</string>
+      <string id="CAT_LibreOfficePrint">Nyomtatás</string>
+      <string id="CAT_LibreOfficePaths">Útvonalak</string>
+      <string id="CAT_LibreOfficeColors">Színek</string>
+      <string id="CAT_LibreOfficeFonts">Betűk</string>
+      <string id="CAT_LibreOfficeSecurity">Biztonság</string>
+      <string id="CAT_LibreOfficePersonalization">Személyre szabás</string>
+      <string id="CAT_LibreOfficeAppearance">Megjelenés</string>
+      <string id="CAT_LibreOfficeAccessibility">Kisegítő lehetőségek</string>
+      <string id="CAT_LibreOfficeAdvanced">Szakértői</string>
+      <string id="CAT_LoadSave">Betöltés / Mentés</string>
+      <string id="CAT_LoadSaveGeneral">Általános</string>
+      <string id="CAT_LibreOfficeWriter">LibreOffice Writer</string>
+      <string id="CAT_LibreOfficeWriterBasicFonts">Alap betűk</string>
+      <string id="LibreOfficeCommon_True">Igaz</string>
+      <string id="LibreOfficeCommon_False">Hamis</string>
+      <string id="LibreOfficeCommon_VHigh">Nagyon magas</string>
+      <string id="LibreOfficeCommon_High">Magas</string>
+      <string id="LibreOfficeCommon_Medium">Közepes</string>
+      <string id="LibreOfficeCommon_Low">Alacsony</string>
+      <string id="Text_FileDefaultSaveType_WR8T">ODF Szöveges dokumentum sablon</string>
+      <string id="Text_FileDefaultSaveType_WR8">ODF Szöveges dokumentum</string>
+      <string id="Text_FileDefaultSaveType_DOCT">Microsoft Word 97/2000/XP/2003 Sablon</string>
+      <string id="Text_FileDefaultSaveType_TXT">Szöveg</string>
+      <string id="Text_FileDefaultSaveType_OOX">Office Open XML Szöveges dokumentum</string>
+      <string id="Text_FileDefaultSaveType_ODT">Flat XML ODF Szöveges dokumentum</string>
+      <string id="Text_FileDefaultSaveType_UOF">Unified Office Format text</string>
+      <string id="Text_FileDefaultSaveType_DOC">Microsoft Word 97/2000/XP/2003</string>
+      <string id="Text_FileDefaultSaveType_DOCX">Microsoft Word 2007/2010/2013 XML</string>
+      <string id="Text_FileDefaultSaveType_HTML">HTML Dokumentum (Writer)</string>
+      <string id="Text_FileDefaultSaveType_MSX">Microsoft Word 2003 XML</string>
+      <string id="Text_FileDefaultSaveType_TXC">Text - Choose Encoding</string>
+      <string id="Text_FileDefaultSaveType_RTF">Rich Text</string>
+      <string id="Text_FileDefaultSaveType_DCB">DocBook</string>
+      <string id="Spreadsheet_FileDefaultSaveType_ODFT">ODF Számolótábla sablon</string>
+      <string id="Spreadsheet_FileDefaultSaveType_ODF">ODF Számolótábla</string>
+      <string id="Spreadsheet_FileDefaultSaveType_OOX">Office Open XML Számolótábla</string>
+      <string id="Spreadsheet_FileDefaultSaveType_CSV">Text CSV</string>
+      <string id="Spreadsheet_FileDefaultSaveType_SYLK">SYLK</string>
+      <string id="Spreadsheet_FileDefaultSaveType_UOF">Unified Office Format Számolótábla</string>
+      <string id="Spreadsheet_FileDefaultSaveType_ODFX">Flat XML ODF Számolótábla</string>
+      <string id="Spreadsheet_FileDefaultSaveType_XLSX2K3">Microsoft Excel 2003 XML</string>
+      <string id="Spreadsheet_FileDefaultSaveType_DBS">dBASE</string>
+      <string id="Spreadsheet_FileDefaultSaveType_XLST">Microsoft Excel 97/2000/XP/2003 sablon</string>
+      <string id="Spreadsheet_FileDefaultSaveType_XLS">Microsoft Excel 97/2000/XP/2003</string>
+      <string id="Spreadsheet_FileDefaultSaveType_HTML">HTML Dokumentum (Calc)</string>
+      <string id="Spreadsheet_FileDefaultSaveType_DIF">Data Interchange Format</string>
+      <string id="Spreadsheet_FileDefaultSaveType_XLSX">Microsoft Excel 2007/2010/2013 XML</string>
+      <string id="Presentation_FileDefaultSaveType_ODFT">ODF Bemutató Sablon</string>
+      <string id="Presentation_FileDefaultSaveType_ODFD">ODF Rajz (Impress)</string>
+      <string id="Presentation_FileDefaultSaveType_OOX">Office Open XML Bemutató</string>
+      <string id="Presentation_FileDefaultSaveType_UOF">Unified Office Format Bemutató</string>
+      <string id="Presentation_FileDefaultSaveType_PPTXT">Microsoft PowerPoint 2007/2010/2013 XML Template</string>
+      <string id="Presentation_FileDefaultSaveType_PPTT">Microsoft PowerPoint 97/2000/XP/2003 Template</string>
+      <string id="Presentation_FileDefaultSaveType_PPTA">Microsoft PowerPoint 97/2000/XP/2003 AutoPlay</string>
+      <string id="Presentation_FileDefaultSaveType_ODFP">ODF Bemutató</string>
+      <string id="Presentation_FileDefaultSaveType_OOXA">Office Open XML Bemutató AutoPlay</string>
+      <string id="Presentation_FileDefaultSaveType_OOXT">Office Open XML Bemutató Sablon</string>
+      <string id="Presentation_FileDefaultSaveType_ODFXP">Flat XML ODF Bemutató</string>
+      <string id="Presentation_FileDefaultSaveType_PPT">Microsoft PowerPoint 97/2000/XP/2003</string>
+      <string id="Presentation_FileDefaultSaveType_PPTXA">Microsoft PowerPoint 2007/2010/2013 XML AutoPlay</string>
+      <string id="Presentation_FileDefaultSaveType_PPTX">Microsoft PowerPoint 2007/2010/2013 XML</string>
+      <string id="UseSystemFileDialog">LibreOffice párbeszédablakok használata</string>
+      <string id="UseSystemFileDialog_Help">Megadja, hogy a LibreOffice a saját dialógus ablakait használja, vagy a rendszer alapértelmezet ablakait</string>
+      <string id="UseJavaVirtualMachineEnabled">Java-futtatókörnyezet használata</string>
+      <string id="UseJavaVirtualMachineEnabled_Help">Megadja, hogy a LibreOffice számára megengedett-e, hogy a számítógép Java virtuális gépét haszálja</string>
+      <string id="Text_FileDefaultSaveType">Writer: Beállítja, hogy mi legyen az alapértelmezett mentési formátum</string>
+      <string id="Text_FileDefaultSaveType_Help">Specify the default file type when saving from Writer. Remember that if you do not enforce the setting, local user configuration will override this.</string>
+      <string id="Spreadsheet_FileDefaultSaveType">Calc: Beállítja, hogy mi legyen az alapértelmezett mentési formátum</string>
+      <string id="Spreadsheet_FileDefaultSaveType_Help">Specify the default file type when saving from Calc. Remember that if you do not enforce the setting, local user configuration will override this.</string>
+      <string id="Presentation_FileDefaultSaveType">Impress: Beállítja, hogy mi legyen az alapértelmezett mentési formátum</string>
+      <string id="Presentation_FileDefaultSaveType_Help">Specify the default file type when saving from Impress. Remember that if you do not enforce the setting, local user configuration will override this.</string>
+      <string id="FileMetaDataOnSave">A LibreOffice kérjen be metaadatokat a dokumentum mentésekor</string>
+      <string id="FileMetaDataOnSave_Help">Ha igaz, a libreoffice bekéri a metaadatokat (szerző, cím, stb..) a felhasználótok, amikor először mentésre kerül egy dokumentum.</string>
+      <string id="LoadPrinter">A nyomtatóbeállítások beolvasása a dokumentumból</string>
+      <string id="LoadPrinter_Help">A dokumentumban esetlegesen elmentett nyomtató-beállításokat automatikusan töltse be a dokumentumal együtt.</string>
+      <string id="CompanyName">Cégnév</string>
+      <string id="CompanyName_Help">Írja be a cég nevét.</string>
+      <string id="CountryName">Ország</string>
+      <string id="CountryName_Help">Írja be az ország nevét.</string>
+      <string id="CityName">Város</string>
+      <string id="CityName_Help">Írja be a város nevét.</string>	  
+      <string id="BasicFonts">Alap betűtípus</string>
+      <string id="BasicFonts_Help">Ez lesz az alapértelmezet betűtípus egy új dokumentum létrehozásakor.</string>
+      <string id="MacroSecurityLevel">Makro biztonsági szint</string>
+      <string id="MacroSecurityLevel_Help">Válasza ki a beállítani kívánt makro-biztonsági szintet</string>
+      <string id="SecureURL">Megbízható fájlok elérési útvonala</string>
+      <string id="SecureURL_Help">Azon fájlok elérési útvonala, amelyekben a makrók futtathatóak. A lista megadása pl.: file:///C:/konyvtar_1,file:///C:/konyvtar_2 formában kell, hogy történjen.</string>	  
+      <string id="HyperlinksWithCtrlClick">Ctrl-Klikk kell a linkek megniytásához</string>
+      <string id="HyperlinksWithCtrlClick_Help">Ha igaz, a felhasználónak nyomva kell tartania a CTRL gombot, mikor egy linket szeretne megnyitni kattintással</string>
+      <string id="WarnCreatePDF">Figyelmeztetés, ha PDF fájlt hozunk létre</string>
+      <string id="WarnCreatePDF_Help">Figyelmeztetjük a felhasználót, ha PDF formátumban menti a dokumentumot</string>
+      <string id="WarnSignDoc">Figyelmeztetés aláíráskor</string>
+      <string id="WarnSignDoc_Help">Figyelmeztetjük a felhasználót, ha egy dokumentumot készül aláírni</string>
+      <string id="WarnSaveOrSendDoc">Figyelmeztetés mentéskor vagy küldéskor</string>
+      <string id="WarnSaveOrSendDoc_Help">Figyelmeztetjük a felhasználót, ha egy dokumentumot el akar menteni, vagy el akar küdleni</string>
+      <string id="WarnPrintDoc">Figyelmeztetés nyomtatáskor</string>
+      <string id="WarnPrintDoc_Help">Figyelmeztetjük a felhasználót, ha egy dokumentumot készül kinyomtatni</string>
+      <string id="RecommendPasswordProtection">Jelszóvédelem javaslása mentéskor</string>
+      <string id="RecommendPasswordProtection_Help">A felhasználónak javaslat jeleniki meg, hogy a mentéskor adjon jelszavas védelmet a dokumentumhoz</string>
+      <string id="RemovePersonalInfoOnSaving">Személyes adatok törlése mentéskor</string>
+      <string id="RemovePersonalInfoOnSaving_Help">Nem menti a fájlba a felhasználó adatait, és eltávolítja onnan a korábban mentett adatokat</string>
+      <string id="UndoSteps">Visszavonási lehetőségek maximális száma</string>
+      <string id="UndoSteps_Help">Set the number of undo steps LibreOffice should remember</string>
+      <string id="ConvertToGreyscales">Színek konvertálása szürkeárnyalatos formára</string>
+      <string id="ConvertToGreyscales_Help">Convert colors to grayscale</string>
+	  <string id="UseDocumentOOoLockFile">Használja a fájlrendszer-független Lock fájlokat megnyitáskor</string>
+	  <string id="UseDocumentOOoLockFile_Help">Amennyiben a beállítás igaz, a fájl mellett található lock fájlok alapján is zároltnak tekinti a fájlt. Amennyiben a beállítás hamis, úgy csak a fájlrendszer natív zárolását veszi alapul.</string>
+      <string id="Persona">LibreOffice Felület</string>
+      <string id="Persona_Help">True will use the pre-installed theme, False will set LibreOffice to plain look</string>
+      <string id="IsAllowAnimatedGraphics">Animált grafikák engedélyezése</string>
+      <string id="IsAllowAnimatedGraphics_Help">Enables or disables animated graphics</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="CompanyName">
+        <textBox refId="CompanyName_Text">
+          <label>Szervezet neve:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <checkBox refId="CompanyName_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="CountryName">
+        <textBox refId="CountryName_Text">
+          <label>Ország:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <checkBox refId="CountryName_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="CityName">
+        <textBox refId="CityName_Text">
+          <label>Város:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <checkBox refId="CityName_Enforce">Kényszerít</checkBox>
+      </presentation>	  
+      <presentation id="UseSystemFileDialog">
+        <checkBox refId="UseSystemFileDialog_BOOL">LibreOffice párbeszédablakok használata</checkBox>
+      </presentation>
+      <presentation id="UseJavaVirtualMachineEnabled">
+        <checkBox refId="UseJavaVirtualMachineEnabled_BOOL">Java-futtatókörnyezet használata</checkBox>
+      </presentation>	  
+      <presentation id="UndoSteps">
+        <decimalTextBox refId="UndoStepsCount" defaultValue="100" spinStep="10">Lépések száma:</decimalTextBox>
+      </presentation>
+      <presentation id="ConvertToGreyscales">
+        <checkBox refId="ConvertToGreyscales_BOOL">A színek szürkeárnyalatossá alakítása</checkBox>
+      </presentation>
+      <presentation id="UseDocumentOOoLockFile">
+        <checkBox refId="UseDocumentOOoLockFile_BOOL">Fájlrendszer-független zárolás használata</checkBox>
+      </presentation>		  
+      <presentation id="MacroSecurityLevel">
+        <dropdownList refId="MacroSecurityLevelOp" noSort="true" defaultItem="1">Makró Biztonság:</dropdownList>
+        <checkBox refId="MacroSecurityLevel_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="SecureURL">
+        <textBox refId="SecureURL_List">
+          <label>Elérési útvonalak:</label>
+          <defaultValue></defaultValue>
+        </textBox>
+        <checkBox refId="SecureURL_Enforce">Kényszerít</checkBox>
+      </presentation>	  
+      <presentation id="HyperlinksWithCtrlClick">
+        <checkBox refId="HyperlinksWithCtrlClick_BOOL">Ctrl-Click required to follow hyperlinks</checkBox>
+        <checkBox refId="HyperlinksWithCtrlClick_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="WarnCreatePDF">
+        <checkBox refId="WarnCreatePDF_BOOL">Figyelmeztetés PDF fájlok készítésekor</checkBox>
+        <checkBox refId="WarnCreatePDF_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="WarnSignDoc">
+        <checkBox refId="WarnSignDoc_BOOL">Figyelmeztetés dokumentum aláírásakor</checkBox>
+        <checkBox refId="WarnSignDoc_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="WarnSaveOrSendDoc">
+        <checkBox refId="WarnSaveOrSendDoc_BOOL">Figyelmeztetés mentéskor vagy küldéskor</checkBox>
+        <checkBox refId="WarnSaveOrSendDoc_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="WarnPrintDoc">
+        <checkBox refId="WarnPrintDoc_BOOL">Figyelmeztetés nyomtatáskor</checkBox>
+        <checkBox refId="WarnPrintDoc_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="RecommendPasswordProtection">
+        <checkBox refId="RecommendPasswordProtection_BOOL">Jelszavas védelem javaslása mentéskor</checkBox>
+        <checkBox refId="RecommendPasswordProtection_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="RemovePersonalInfoOnSaving">
+        <checkBox refId="RemovePersonalInfoOnSaving_BOOL">Szeméyles adatok eltávolítása mentéskor</checkBox>
+        <checkBox refId="RemovePersonalInfoOnSaving_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="Persona">
+        <dropdownList refId="PersonaOp" noSort="true" defaultItem="1">Firefox téma:</dropdownList>
+        <checkBox refId="Persona_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="IsAllowAnimatedGraphics">
+        <checkBox refId="IsAllowAnimatedGraphics_BOOL">Animációk engedélyezése</checkBox>
+        <checkBox refId="IsAllowAnimatedGraphics_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="FileMetaDataOnSave">
+        <checkBox refId="FileMetaDataOnSave_BOOL">Tulajdonságok szerkesztése mentéskor</checkBox>
+        <checkBox refId="FileMetaDataOnSave_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="LoadPrinter">
+        <checkBox refId="LoadPrinter_BOOL">Nyomtató beállítások betöltése dokumentummal</checkBox>
+        <checkBox refId="LoadPrinter_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="Text_FileDefaultSaveType">
+        <dropdownList refId="Text_FileDefaultSaveTypeOp" noSort="true" defaultItem="7">Alapértelmezett formátum:</dropdownList>
+        <checkBox refId="Text_FileDefaultSaveType_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="Spreadsheet_FileDefaultSaveType">
+        <dropdownList refId="Spreadsheet_FileDefaultSaveTypeOp" noSort="true" defaultItem="7">Alapértelmezett formátum:</dropdownList>
+        <checkBox refId="Spreadsheet_FileDefaultSaveType_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="Presentation_FileDefaultSaveType">
+        <dropdownList refId="Presentation_FileDefaultSaveTypeOp" noSort="true" defaultItem="7">Alapértelmezett formátum:</dropdownList>
+        <checkBox refId="Presentation_FileDefaultSaveType_Enforce">Kényszerít</checkBox>
+      </presentation>
+      <presentation id="BasicFonts">
+        <textBox refId="BasicFonts_Caption">
+          <label>Betűtípus neve:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <textBox refId="BasicFonts_Index">
+          <label>Sorszáma:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <textBox refId="BasicFonts_List">
+          <label>Lista:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <textBox refId="BasicFonts_Standard">
+          <label>Szövegtörzs:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <textBox refId="BasicFonts_Heading">
+          <label>Fejléc:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
