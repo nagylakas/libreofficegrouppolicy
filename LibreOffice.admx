@@ -59,6 +59,7 @@
     <category name="CAT_LibreOfficeAdvanced" displayName="$(string.CAT_LibreOfficeAdvanced)">
       <parentCategory ref="LibreOffice:CAT_LibreOffice"/>
     </category>
+	
     <!-- Load/ Save -->
     <category name="CAT_LoadSave" displayName="$(string.CAT_LoadSave)">
       <parentCategory ref="LibreOffice:CAT_LibreOfficeRoot"/>
@@ -66,6 +67,7 @@
     <category name="CAT_LoadSaveGeneral" displayName="$(string.CAT_LoadSaveGeneral)">
       <parentCategory ref="LibreOffice:CAT_LoadSave"/>
     </category>
+	
     <!-- Language Settings -->
     <!-- LibreOffice Writer -->
     <category name="CAT_LibreOfficeWriter" displayName="$(string.CAT_LibreOfficeWriter)">
@@ -99,6 +101,42 @@
         </boolean>
       </elements>
     </policy>
+    <policy name="CountryName" class="Machine" displayName="$(string.CountryName)"
+            explainText="$(string.CountryName_Help)" presentation="$(presentation.CountryName)"
+            key="Software\policies\LibreOffice\org.openoffice.UserProfile\Data\c">
+      <parentCategory ref="CAT_LibreOfficeUserData"/>
+      <supportedOn ref="SupportedWinVersion"/>
+      <elements>
+        <text id="CountryName_Text" valueName="Value" required="true" expandable="true"/>
+        <boolean id="CountryName_Enforce" valueName="Final">
+          <trueValue>
+            <decimal value="1"/>
+          </trueValue>
+          <falseValue>
+            <decimal value="0"/>
+          </falseValue>
+        </boolean>
+      </elements>
+    </policy>
+    <policy name="CityName" class="Machine" displayName="$(string.CityName)"
+            explainText="$(string.CityName_Help)" presentation="$(presentation.CityName)"
+            key="Software\policies\LibreOffice\org.openoffice.UserProfile\Data\l">
+      <parentCategory ref="CAT_LibreOfficeUserData"/>
+      <supportedOn ref="SupportedWinVersion"/>
+      <elements>
+        <text id="CityName_Text" valueName="Value" required="true" expandable="true"/>
+        <boolean id="CityName_Enforce" valueName="Final">
+          <trueValue>
+            <decimal value="1"/>
+          </trueValue>
+          <falseValue>
+            <decimal value="0"/>
+          </falseValue>
+        </boolean>
+      </elements>
+    </policy>	
+
+	
     <!-- General -->
     <policy name="UseSystemFileDialog" class="Machine" displayName="$(string.UseSystemFileDialog)"
             explainText="$(string.UseSystemFileDialog_Help)" presentation="$(presentation.UseSystemFileDialog)"
@@ -117,6 +155,24 @@
         </boolean>
       </elements>
     </policy>
+    <policy name="UseJavaVirtualMachineEnabled" class="Machine" displayName="$(string.UseJavaVirtualMachineEnabled)"
+            explainText="$(string.UseJavaVirtualMachineEnabled_Help)" presentation="$(presentation.UseJavaVirtualMachineEnabled)"
+            key="Software\policies\LibreOffice\org.openoffice.Office.Java\VirtualMachine">
+      <parentCategory ref="CAT_LibreOfficeGeneral"/>
+      <supportedOn ref="SupportedWinVersion"/>
+      <elements>
+        <!-- Yes true / false has to be reversed for this item -->
+        <boolean id="UseJavaVirtualMachineEnabled_BOOL" valueName="Enable">
+          <trueValue>
+            <string>false</string>
+          </trueValue>
+          <falseValue>
+            <string>true</string>
+          </falseValue>
+        </boolean>
+      </elements>
+    </policy>
+	
     <!-- Memory -->
     <policy name="UndoSteps" class="Machine" displayName="$(string.UndoSteps)"
             explainText="$(string.UndoSteps_Help)" presentation="$(presentation.UndoSteps)"
@@ -127,6 +183,7 @@
         <decimal id="UndoStepsCount" valueName="Value" minValue="1" maxValue="999" storeAsText="true"/>
       </elements>
     </policy>
+	
     <!-- View -->
     <!-- Print -->
     <policy name="ConvertToGreyscales" class="Machine" displayName="$(string.ConvertToGreyscales)"
@@ -145,6 +202,7 @@
         </boolean>
       </elements>
     </policy>
+	
     <!-- Paths -->
     <!-- Security -->
     <policy name="MacroSecurityLevel" class="Machine" displayName="$(string.MacroSecurityLevel)"
@@ -185,6 +243,26 @@
         </boolean>
       </elements>
     </policy>
+    <policy name="SecureURL" 
+			class="Machine" 
+			displayName="$(string.SecureURL)" 
+			presentation="$(presentation.SecureURL)"
+            explainText="$(string.SecureURL_Help)" 
+			key="Software\policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\SecureURL">
+      <parentCategory ref="CAT_LibreOfficeSecurity"/>
+      <supportedOn ref="SupportedWinVersion"/>
+      <elements>
+		<text    id="SecureURL_List"    valueName="Value" required="true" expandable="true"/>
+        <boolean id="SecureURL_Enforce" valueName="Final">
+          <trueValue>
+            <decimal value="1"/>
+          </trueValue>
+          <falseValue>
+            <decimal value="0"/>
+          </falseValue>
+        </boolean>
+      </elements>
+    </policy>	
 	<policy name="HyperlinksWithCtrlClick" class="Machine" displayName="$(string.HyperlinksWithCtrlClick)"
             explainText="$(string.HyperlinksWithCtrlClick_Help)" presentation="$(presentation.HyperlinksWithCtrlClick)"
             key="Software\policies\LibreOffice\org.openoffice.Office.Common\Security\Scripting\HyperlinksWithCtrlClick">
@@ -408,6 +486,7 @@
         </boolean>
       </elements>
     </policy>
+	
     <!-- Load/Save -->
     <!-- General -->
     <policy name="FileMetaDataOnSave" class="Machine" displayName="$(string.FileMetaDataOnSave)"
@@ -727,6 +806,26 @@
         </boolean>
       </elements>
     </policy>
+
+	<!-- No lock file -->
+    <policy name="UseDocumentOOoLockFile" class="Machine" displayName="$(string.UseDocumentOOoLockFile)"
+            explainText="$(string.UseDocumentOOoLockFile_Help)" presentation="$(presentation.UseDocumentOOoLockFile)"
+            key="Software\policies\LibreOffice\org.openoffice.Office.Common\Misc\UseDocumentOOoLockFile">
+      <parentCategory ref="CAT_LoadSaveGeneral"/>
+      <supportedOn ref="SupportedWinVersion"/>
+      <elements>
+        <boolean id="UseDocumentOOoLockFile_BOOL" valueName="Value">
+          <trueValue>
+            <string>true</string>
+          </trueValue>
+          <falseValue>
+            <string>false</string>
+          </falseValue>
+        </boolean>
+      </elements>
+    </policy>	
+	<!-- End of No lock file -->
+	
     <!-- LibreOffice Writer -->
     <!-- Basic Fonts -->
     <policy name="DefaultFont" class="Machine" displayName="$(string.BasicFonts)"
