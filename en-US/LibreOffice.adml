@@ -104,10 +104,16 @@
       <string id="LoadPrinter_Help">Load Printer settings with the document.</string>
       <string id="CompanyName">Company Name</string>
       <string id="CompanyName_Help">Enter the Company Name.</string>
+      <string id="CountryName">Country</string>
+      <string id="CountryName_Help">Enter the Country name.</string>
+      <string id="CityName">City</string>
+      <string id="CityName_Help">Enter the City name.</string>	  
       <string id="BasicFonts">Basic Fonts</string>
       <string id="BasicFonts_Help">Enter the default font.</string>
       <string id="MacroSecurityLevel">Macro Security Level</string>
       <string id="MacroSecurityLevel_Help">Choose the Macro Security Level</string>
+      <string id="SecureURL">Trusted files URL</string>
+      <string id="SecureURL_Help">Paths, where files can be contain macro, and user can run the macro</string>	 	  
 	  <string id="HyperlinksWithCtrlClick">Ctrl-Click required to follow Hyperlinks</string>
       <string id="HyperlinksWithCtrlClick_Help">If true, users will need to hold down the Ctrl key in order to click Hyperlinks</string>
 	  <string id="WarnCreatePDF">Warn when creating PDF files</string>
@@ -126,6 +132,8 @@
       <string id="UndoSteps_Help">Set the number of undo steps LibreOffice should remember</string>
       <string id="ConvertToGreyscales">Convert colors to grayscale</string>
       <string id="ConvertToGreyscales_Help">Convert colors to grayscale</string>
+  	  <string id="UseDocumentOOoLockFile">Use filesystem independent lock file</string>
+	  <string id="UseDocumentOOoLockFile_Help">If the settings is true, or not defined, LibreOffice will use Filesyístem Independent lock files. If false, LibreOffice use only native filesystem locking, where open files.</string>
       <string id="Persona">LibreOffice Persona</string>
       <string id="Persona_Help">True will use the pre-installed theme, False will set LibreOffice to plain look</string>
       <string id="IsAllowAnimatedGraphics">Allow animated graphics</string>
@@ -139,10 +147,30 @@
         </textBox>
         <checkBox refId="CompanyName_Enforce">Enforce</checkBox>
       </presentation>
+      <presentation id="CountryName">
+        <textBox refId="CountryName_Text">
+          <label>Country:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <checkBox refId="CountryName_Enforce">Enforce</checkBox>
+      </presentation>
+      <presentation id="CityName">
+        <textBox refId="CityName_Text">
+          <label>City:</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+        <checkBox refId="CityName_Enforce">Enforce</checkBox>
+      </presentation>		  
       <!-- General -->
       <presentation id="UseSystemFileDialog">
         <checkBox refId="UseSystemFileDialog_BOOL">Use LibreOffice dialogs</checkBox>
       </presentation>
+	  <!-- JAVA -->
+      <presentation id="UseJavaVirtualMachineEnabled">
+        <checkBox refId="UseJavaVirtualMachineEnabled_BOOL">Enable Java-runtime</checkBox>
+      </presentation>		  
       <!-- Memory -->
       <presentation id="UndoSteps">
         <decimalTextBox refId="UndoStepsCount" defaultValue="100" spinStep="10">Number of steps:</decimalTextBox>
@@ -157,6 +185,13 @@
         <dropdownList refId="MacroSecurityLevelOp" noSort="true" defaultItem="1">Macro Security:</dropdownList>
         <checkBox refId="MacroSecurityLevel_Enforce">Enforce</checkBox>
       </presentation>
+      <presentation id="SecureURL">
+        <textBox refId="SecureURL_List">
+          <label>File paths:</label>
+          <defaultValue></defaultValue>
+        </textBox>
+        <checkBox refId="SecureURL_Enforce">Enforce</checkBox>
+      </presentation>	  
 	  <presentation id="HyperlinksWithCtrlClick">
         <checkBox refId="HyperlinksWithCtrlClick_BOOL">Ctrl-Click required to follow hyperlinks</checkBox>
         <checkBox refId="HyperlinksWithCtrlClick_Enforce">Enforce</checkBox>
@@ -216,6 +251,9 @@
         <dropdownList refId="Presentation_FileDefaultSaveTypeOp" noSort="true" defaultItem="7">Default Save Type:</dropdownList>
         <checkBox refId="Presentation_FileDefaultSaveType_Enforce">Enforce</checkBox>
       </presentation>
+      <presentation id="UseDocumentOOoLockFile">
+        <checkBox refId="UseDocumentOOoLockFile_BOOL">Use Filesystem independent lock file</checkBox>
+      </presentation>	  
       <!-- Basic Fonts -->
       <presentation id="BasicFonts">
         <textBox refId="BasicFonts_Caption">
